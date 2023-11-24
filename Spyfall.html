@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Spyfall.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Spyfall.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Spyfall.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Rubik&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title> Red Koala Spyfall</title>
+    <link rel="icon" href="1Spyfall.png">
+    <style>
+        body {
+          overflow: hidden;
+        }
+    </style>
+</head>
+
+<body  class="changebg" style="background-color: white;
+        transition: ease-in-out 0.5s;">
+<!--introhome-->
+<div id="timecounter">
+    <div id="app"></div>
+</div>
+<main class="main carddelay">
+            
+    <section class="card-area">
+
+        <section class="card-section">
+            <div class="card">
+                <div class="flip-card">
+                    <div class="flip-card__container">
+                        <div class="card-front">
+                            <div class="card-front__tp card-front__tp--ski">
+                                <h2 id="Roleinner" class="card-front__heading">
+                                    Role
+                                </h2>
+                                <h1 id="Placeinner" class="card-front__text-price">
+                                    Place
+                                </h1>
+                            </div>
+
+                            <div class="card-front__bt">
+                                <p id="cardplayername" class="card-front__text-view card-front__text-view--ski">
+                                    Player Name
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-back">
+                            <img id="placeimg" class="img__container" src="https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></img>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inside-page">
+                    <div class="inside-page__container">
+                        <h3 class="inside-page__heading inside-page__heading--ski">
+                            Description
+                        </h3>
+                        <p id="Roledescription" class="inside-page__text">
+                            desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes desdes
+                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+</main>
+
+
+<div class="intro">     
+    <h1 class="logo-header">
+        <span class="logo">Spy</span><span class="logo">fall</span><br>
+    </h1>
+    <h2 class="name-header"><span class="logo">by Kimmuie</span> <span class="logo">&</span> <span class="logo"> Mozart</span></h2>
+</div>
+
+
+<div class="parent"> 
+    <button
+class="changeborder changewhite hover active"
+id="vote">Start Vote</button>
+
+    <img class="changegif1"
+    src="SIT WHITE.gif"
+    style=" width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            position:fixed;
+            display:block;
+            transition: ease-in-out 0.5s;">
+    <img class="changegif2"
+    src="SIT BLACK.gif"
+    style=" width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            position:fixed;
+            display:none;
+            transition: ease-in-out 0.5s;">
+            <!--backgroundcloseall-->
+    <button id="backgroundclosebox"
+    class="contactux donateux guideux soundux qrux"
+    style=" 
+            background-color: grey;
+            position:fixed;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1%;"></button> 
+
+        <div id="leftbox"
+        class="changeleftbox hideleftbox">
+        
+            <button id="hidebox"
+            class="changeborder changewhite hover active hidehide">Hide</button> 
+            
+            <img src="1Spyfall.png" 
+            id="Spyfalllogo1"
+            class="hidelogo">
+            
+            <h1 id="header1"
+                    class="header changewhite html hideheader">Spyfall</h1>
+            
+            <h3 id="header2"
+            class="changewhite hideheader">Kimmuie & Mozart</h3>
+            
+            <button onclick="toggleElements()" id="contactalarm"
+            class="leftboxbutton changeborder changewhite hover active hidebutton ">Contact</button> 
+            
+            <button onclick="toggleElements()" id="donatealarm"
+            class="leftboxbutton changeborder changewhite hover active hidebutton">Donate</button> 
+
+            <p id="description"
+            class="changewhite hidedes">
+            description : This game website create it by Kim and my friend Mozart as an assistant, we both doing since we're grade 11 and still studying in Bangkok Christian College ,this  website create for testing our knowlegde , would you mind donate some tip for our inspiration , we both will keep improve our skill , there is playing guide on top of the right side , so have fun.<br><br>คำบรรยาย : เว็ปนี้สร้างขึ้นโดย คิม & โมสาท ในฐานะผู้ช่วย เราทั้งคู่สร้างเว็ปนี้เมื่อมัธยม 5 และกำลังศึกษาอยู่ที่โรงเรียนกรุงเทพคริสเตียนวิทยาลัย  เว็ปไซต์นี้สร้างขึ้นมาเพื่อทดสอบความรู้ของเราทั้งคู่ หากคุณพอจะบริจาคทิปเล็กๆน้อยเพื่อสร้างแรงบันดาลใจให้พวกเรา เราทั้งสองจะพัฒนาทักษะของเราอยู่เรื่อยๆวิธีเล่นอยู่ทางด้านขวาบน ขอให้สนุก</p>
+            
+            <button onclick="window.location.href='mailto:pranchayutnetsawang@gmail.com'"
+            id="feedback" class="leftboxbutton changeborder changewhite hover active hidebutton">Send Feedback</button> 
+
+        </div>
+
+        <div id="topright-container">
+            <div id="toprightrelative">
+            <button id="guidealarm" class="changeborder changewhite hover active">How to play</button>
+            <button id="change-color" class="padded-cc iconbutton changeborder changewhite hover active">
+                <div id="moon" style="display: none;" class="gg-moon changewhite"></div>
+                <div id="sun" style="display: block;" class="gg-sun changewhite"></div>
+            </button>
+            <button id="Sound" class="padded-so iconbutton soundalarm changeborder changewhite hover active">
+                <div class="gg-volume changewhite"></div>
+            </button>
+            </div>
+
+            <audio id="myAudio" loop>
+                <source src="SongLofi.mp3" type="audio/mpeg">
+            </audio>
+            <!--Playaudio-->
+            <div id="soundbox"
+            class="changeleftbox soundux">
+            <button id="playButton" 
+            class="changeborder changewhite soundux hover active">Play</button>
+            <button id="pauseButton" 
+            class="changeborder changewhite soundux hover active">Pause</button>
+            <input id="volumeSlider" 
+            class="changeborder changewhite soundux"
+            type="range" min="0" max="1" step="0.01" value="1">
+            </div>
+        </div>
+        
+        <div class="bigbuttoncontainer">
+            <img src="1Spyfall.png" 
+            id="Spyfalllogo2">    
+            
+            <h1 id="headermiddle" 
+            class="changewhite">Spyfall</h1>
+    
+            <h1 id="csym"
+            class="changewhite">© 
+            <span id="beta">Beta!</span>
+        </h1>
+            
+            <button onclick="comingsoon()" class="Bigbutton changeborder changewhite Bighover hover active">
+            <span id="Host">Host Game</span>
+            <span id="coming1" class="comingsoon">Coming Soon!</span>
+        </button> 
+
+            <button onclick="comingsoon()"
+            id="Join"
+            class="changeborder changewhite Bighover Bigbutton hover active">Join Game
+            <span id="coming2" class="comingsoon">Coming Soon!</span>
+        </button> 
+    
+            <button onclick="offlineon()"
+            id="Offline"
+            class="changeborder changewhite Bighover Bigbutton hover active">Offline Game</button>    
+        
+            <div    class="guide changeleftbox guideux hidden"
+            id="guidebox">
+                <p id="guidetext"
+                    class="changewhite">1.ผู้เล่นจะได้บทบาทคนล่ะ 1 บท แต่สถานที่จะเหมือนกันทุกคน <br><br>2.จะมีผู้เล่นที่เป็น Spy ต้องสืบหาให้ได้ว่าสถานที่นี้คือที่ไหน <br><br>3.จับเวลา ใครก็ได้เริ่มถามเพื่อหาคนต้องสงสัย<br>โดยเกี่ยวกับสถานที่และบทบาท <br><br>4.หลังจากคนถูกถามตอบ คนถูกถามต้องเป็นคนถามคนต่อไป <br><br>5.ก่อนหมดเวลาหาก Spy รู้ว่าสถานที่คือที่ไหนแล้วเปิดเผยตัว<br>และตอบชื่อสถานที่ หากตอบถูก Spy ชนะ <br><br>6.หากหมดเวลาผู้เล่นทุกคนต้องโหวตหา Spy หากถูกต้อง<br>ผู้เล่นทุกคนชนะยกเว้น Spy แต่หากผิดให้เปิดตัว Spy และให้ <br>Spy ทายสถานที่
+                </p>            
+                    
+                   <label class="switch">
+                        <input type="checkbox" onclick="checklan()">
+                        <span class="slider round"></span>
+                      </label> 
+             </div>
+
+        <div    class="contact changeleftbox alarmux"
+        id="alarmbox1">
+            <div class="contactux" style="display: none; visibility: hidden;">
+                <button id="closebox1"
+                class="hover acive donateux contactux closeboxcss">X</button>
+                <img onclick="window.location.href='https://instagram.com/kimmuie_?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D'"
+                        class="contact theicon contactux hover active contacticon"
+                        src="1Instagram.png" height="100" width="100"
+                        id="iconig1">
+        
+            <img onclick="window.location.href='https://instagram.com/mozart_ko?igshid=NzZhOTFlYzFmZQ=='"
+                        class="contact theicon contactux hover active contacticon"
+                        src="1Instagram.png" height="100" width="100"
+                        id="iconig2">
+        
+                <img onclick="window.location.href='https://github.com/Kimmuie'"
+                        class="contact theicon contactux hover active contacticon"
+                        src="1Github.png" height="100" width="100"
+                        id="icongh1">
+        
+                <img onclick="window.location.href='https://github.com/democraz20'"
+                        class="contact theicon contactux hover active contacticon"
+                        src="1Github.png" height="100" width="100"
+                        id="icongh2">
+        
+                <!--pop up-->
+        
+                <h1 onclick="window.location.href='https://instagram.com/kimmuie_?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D'"
+                        class="contact changewhite contactux hover active contacttext"
+                        id="textig1">Kimmuie</h1>
+        
+                <h1 onclick="window.location.href='https://instagram.com/mozart_ko?igshid=NzZhOTFlYzFmZQ=='"
+                        class="contact changewhite contactux hover active contacttext"
+                        id="textig2">Mozart</h1>
+        
+                <h1 onclick="window.location.href='https://github.com/Kimmuie'"
+                        class="contact changewhite contactux hover active contacttext"
+                        id="textgh1">Kimmuie</h1>
+        
+                <h1 onclick="window.location.href='https://github.com/democraz20'"
+                        class="contact changewhite contactux hover active contacttext" 
+                        id="textgh2">Mozart</h1>
+            </div>
+        </div>
+    
+        <div    class="donate changeleftbox alarmux"
+        id="alarmbox2">
+            <div class="donateux" style="display: none; visibility: hidden;">
+                <button id="closebox2"
+                class="hover acive donateux contactux closeboxcss">X</button>
+                <img 
+                class="donate theicon donateux hover active QR donateicon"
+                src="1Kbank.png" height="100" width="100"
+                id="iconkbank">
+        
+                <img onclick="window.location.href='https://www.paypal.me/pranchayut172'"
+                class="donate theicon donateux hover active donateicon"
+                src="1Palpay.png" height="100" width="100"
+                id="iconpalpay">
+                
+                <img onclick="window.location.href='https://tmn.app.link/u2QI0ta8JCb'"
+                class="donate theicon donateux hover active donateicon"
+                src="1TrueMoney.png" height="100" width="100"
+                id="icontruemoney">
+        
+                <h1 class="donate changewhite donateux hover active QR donatetext"
+                id="textkbank">Kbank</h1>
+        
+                <h1 onclick="window.location.href='https://www.paypal.me/pranchayut172'"
+                class="donate changewhite donateux hover active donatetext"
+                id="textpalpay">Palpay</h1>
+        
+                <h1 onclick="window.location.href='1Kbank.jpg'"
+                class="donate changewhite donateux hover active donatetext"
+                id="texttruemoney">TrueMoney</h1>
+
+                <div class="middlecontainer">
+                    <img id="kbankcode" class="qrux"
+                    src="1KbankQR.jpg">
+            </div>
+        </div>
+    
+
+    </div>
+
+        <h1 id="comlanguage"
+        class="changewhite">Using HTML ,Javascript ,Css</h1>
+
+    </div>
+        </div>
+
+        <button id="guideclosebox"
+        class="hover acive guideux">X</button> 
+        
+        <div class="grow-on-hover">Hover me</div>
+
+        <!--offline button-->
+
+
+        <!--offline-->  
+        <div id="offlineintro">
+                <div id="loader-offline">
+                  <div id="topoffline"></div>
+                  <div id="bottomoffline"></div>
+                </div>
+                <h2 id="headeroffline">
+                  <span>Looking For Koala . . .</span><br>
+                </h2>
+              </div>
+
+<div class="offlinesetting changeleftbox"
+        id="offlinebox">
+
+        <h2 id="headerofflineforbox" 
+        class="offlinesetting changewhite">Offline Mode</h2>
+
+        <form onsubmit="return false;">
+                <label class="changewhite offlinesetting" id="label1" for="nameInput">Add Player:</label>
+                <input class="offlinesetting changeborder changewhite" type="text" id="nameInput" placeholder="Type a name here" onkeydown="if(event.keyCode == 13) displayAndClear()">
+                <button class="offlinesetting changeborder changewhite hover active" id="addname" type="button" onclick="displayAndClear()">Add</button>
+            </form>   
+
+                <label class="changewhite offlinesetting" id="label2">Game Duration:</label>
+                <select
+                  type="number"
+                  class="offlinesetting changeborder changewhite offlinesetting"
+                  id="timeInput"
+                  onchange="if (this.value === '') customtime();"
+                >
+                  <option value="300">5 minute</option>
+                  <option value="360">6 minute</option>
+                  <option value="420">7 minute</option>
+                  <option value="480">8 minute</option>
+                  <option value="540">9 minute</option>
+                  <option value="600">10 minute</option>
+                  <option value="" id="customtimeoption">Custom</option>
+                  <option value="9999999" id="nolimittimeoption">Infinite</option>
+                </select>
+                
+
+<label class="changewhite offlinesetting" id="label3">Spy Amount:</label>
+<select
+type="number"
+class="offlinesetting changeborder changewhite offlinesetting"
+id="spyInput">
+<option value="1Spy">1 Spy</option>
+<option value="2Spy">2 Spy (coming soon)</option>
+</select>
+
+<button onclick="startGame()"
+class="offlinesetting changeborder changewhite hover active offlinesetting"
+id="startofflinebutton">Start Game</button> 
+
+<div class="changewhite" id="nameDisplay"></div>
+
+</div>
+
+        
+<img onclick="window.location.href='Spyfall.html'"
+id="homeimg1" class="toprighticonimg"
+src="1Homeblack.png">
+
+<img onclick="window.location.href='Spyfall.html'"
+id="homeimg2" class="toprighticonimg"
+src="1Homewhite.png">
+
+<img 
+id="listimg1" class="toprighticonimg List"
+src="1Listblack.png">
+
+<img 
+id="listimg2" class="toprighticonimg List"
+src="1Listwhite.png">
+
+</div>
+
+
+    <div id="playershow">
+        <h1 id="playernamecheck" class="changewhite" >Player</h1>
+        <button
+        class="changeborder changewhite hover active"
+        id="nextofflinebutton">Next</button> 
+        </div>
+</div>
+
+<div id="mainpacket">
+
+    <img ondblclick="movepacket()"
+    id="packet1"
+    class="packet"
+    src="1Packet.png">
+    
+    <img ondblclick="movepacket()"
+    id="packet2"
+    class="packet"
+    src="2Packet.png">
+
+    <p id="demo"></p>
+
+    <div class="changewhite" id="votingSection"></div>
+    <button class="changeborder changewhite hover active"
+    id="confirmvote">Confirm Vote</button>
+
+        <script src="Offlinemode.js"></script>
+        <script src="Spyfall.js"></script>
+</body>
+</html>
